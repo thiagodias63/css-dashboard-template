@@ -1,0 +1,98 @@
+.content-area {
+    margin-left: 280px;
+    .heading {
+        h1 {
+            color: purple;
+            font-size: 1.4rem;
+            font-weight: 400;
+            margin-bottom: 10px;
+        }
+        p {
+            color: #1b1b1b;
+            font-size: .8rem;
+            margin-bottom: 10px;
+        }
+    }
+    .cards {
+        overflow: auto;
+        margin-bottom: 30px;
+
+        .card {
+            background-color: #fff;
+            border-radius: 5px;
+            padding: 20px;
+            overflow: auto;
+            .user-img {
+                background: url("https://randomuser.me/api/portraits/men/32.jpg") no-repeat center center; 
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+                width: 115px;
+                height: 115px;
+                border-radius: 50%;
+                margin: 0 auto;
+            }
+            .user-name {
+                font-size: 1rem;
+                color: purple;
+                display: block;
+                text-align: center;
+                margin: 10px 0;
+            }
+            .user-title {
+                display: block;
+                font-size: .8rem;
+                text-align: center;
+            }
+            .card-subsection-title { 
+                font-size: .8rem; 
+                color: $greyLight;
+            }
+            .card-subsection-description {
+                font-size: .8rem;
+                color: $greyDark;
+            }
+
+            h6 {
+                font-size: .8rem;
+            }
+            .date {
+                font-size: 1.3rem;
+                display: block;
+                border-left: 5px solid $greenNeon;
+                position: relative;
+                left: -20px;
+                padding: 5px 40px; 
+                margin: 10px 0;
+            }
+            .job-type {
+                height: 25px;
+                width: 25px;
+                border-radius: 50%;
+                color: black;
+                font-size: .6rem;
+                background-color: $greenNeon;
+                padding: 7px;
+            }
+        }
+    }
+}
+
+.col-md-4 {
+    padding: 0 15px;
+    width: calc(100% / 3);
+    display: inline-block;
+}
+
+.col-md-3 {
+    padding: 0 15px;
+    width: calc(100% / 4);
+    display: inline-block;
+}
+
+.col-md-2 {
+    padding: 0 15px;
+    width: calc(100% / 6);
+    display: inline-block;
+}
