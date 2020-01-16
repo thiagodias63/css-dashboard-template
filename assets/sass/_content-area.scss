@@ -79,20 +79,55 @@
     }
 }
 
-.col-md-4 {
-    padding: 0 15px;
-    width: calc(100% / 3);
-    display: inline-block;
-}
+// .col-md-4 {
+//     padding: 0 15px;
+//     width: calc(100% / 3);
+//     display: inline-block;
+// }
 
-.col-md-3 {
-    padding: 0 15px;
-    width: calc(100% / 4);
-    display: inline-block;
-}
+// .col-md-3 {
+//     padding: 0 15px;
+//     width: calc(100% / 4);
+//     display: inline-block;
+// }
 
-.col-md-2 {
-    padding: 0 15px;
-    width: calc(100% / 6);
-    display: inline-block;
+// .col-md-2 {
+//     padding: 0 15px;
+//     width: calc(100% / 6);
+//     display: inline-block;
+// }
+
+table {
+    width: 100%;
+    thead {
+        background-color: $greyDark;
+        th {
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            text-align: left;
+            font-weight: 500;
+            padding: 15px 10px;
+            color: black;
+            border-top-left-radius: 5px; 
+            border-top-right-radius: 5px;
+        }
+    }
+    tbody {
+        background-color: #fff;
+        font-size: .8rem;
+        td {
+            padding: 15px 10px;
+            // color: $greyDark;
+            .logo {
+                display: inline-block;
+                background-color: $greenNeon;
+                padding: 20px;
+                border-radius: 50%;
+                margin-right: 20px;
+                color: #fff;
+                width: 20px;
+                height: 20px;
+            }
+        }
+    }
 }
